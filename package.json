@@ -1,0 +1,24 @@
+{
+  "name": "techlab-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd backend && nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouauiabenaissa/techlab-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouauiabenaissa/techlab-1/issues"
+  },
+  "homepage": "https://github.com/mouauiabenaissa/techlab-1#readme",
+  "devDependencies": {
+    "concurrently": "^6.4.0"
+  }
+}
